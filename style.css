@@ -6,7 +6,8 @@
 }
 
 body {
-    
+    background-size:cover ;
+    background-image: url(din1053-moeda5.jpg);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -135,7 +136,7 @@ height: 800px;
 }
 
 @media(max-width: 1600px){
-    div.campos{
+    div.campos.img{
         left: -100px;
         position: relative;
     }
